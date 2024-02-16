@@ -69,6 +69,7 @@ hr {
   #logoBar {
     width: 100vw;
     text-align: center;
+    height: auto;
   }
 
   #siteLogo{
@@ -81,8 +82,16 @@ hr {
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly; */
-    /* justify-items: center;
+    justify-content: space-evenly; 
+    /* justify-content: center; */
+    align-items: center;
+    align-content: center;
+    /* justify-items: center; */
+  }
+
+  hr {
+    margin: 0rem;
+    justify-content: center;
   }
 
 }
